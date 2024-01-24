@@ -1,0 +1,4 @@
+2024/01/23 13:41:24 [error] 10#10: *1 "/var/www/frontend/dist/index.html" is not found (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2024/01/23 13:41:24 [error] 10#10: *1 open() "/var/www/frontend/dist/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/01/23 14:07:59 [error] 10#10: *5 directory index of "/var/www/frontend/dist/" is forbidden, client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2024/01/23 14:17:03 [error] 10#10: *6 directory index of "/var/www/frontend/dist/" is forbidden, client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
