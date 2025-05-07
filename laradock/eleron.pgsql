@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: company; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: company; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.company (
@@ -34,10 +34,10 @@ CREATE TABLE public.company (
 );
 
 
-ALTER TABLE public.company OWNER TO gorodrabot;
+ALTER TABLE public.company OWNER TO rocketscience;
 
 --
--- Name: company_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: company_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.company_id_seq
@@ -48,17 +48,17 @@ CREATE SEQUENCE public.company_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.company_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.company_id_seq OWNER TO rocketscience;
 
 --
--- Name: company_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: company_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.company_id_seq OWNED BY public.company.id;
 
 
 --
--- Name: event; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: event; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.event (
@@ -74,10 +74,10 @@ CREATE TABLE public.event (
 );
 
 
-ALTER TABLE public.event OWNER TO gorodrabot;
+ALTER TABLE public.event OWNER TO rocketscience;
 
 --
--- Name: event_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: event_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.event_id_seq
@@ -88,17 +88,17 @@ CREATE SEQUENCE public.event_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.event_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.event_id_seq OWNER TO rocketscience;
 
 --
--- Name: event_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: event_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.event_id_seq OWNED BY public.event.id;
 
 
 --
--- Name: event_user; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: event_user; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.event_user (
@@ -110,10 +110,10 @@ CREATE TABLE public.event_user (
 );
 
 
-ALTER TABLE public.event_user OWNER TO gorodrabot;
+ALTER TABLE public.event_user OWNER TO rocketscience;
 
 --
--- Name: event_user_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: event_user_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.event_user_id_seq
@@ -124,17 +124,17 @@ CREATE SEQUENCE public.event_user_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.event_user_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.event_user_id_seq OWNER TO rocketscience;
 
 --
--- Name: event_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: event_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.event_user_id_seq OWNED BY public.event_user.id;
 
 
 --
--- Name: failed_jobs; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.failed_jobs (
@@ -148,10 +148,10 @@ CREATE TABLE public.failed_jobs (
 );
 
 
-ALTER TABLE public.failed_jobs OWNER TO gorodrabot;
+ALTER TABLE public.failed_jobs OWNER TO rocketscience;
 
 --
--- Name: failed_jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.failed_jobs_id_seq
@@ -162,17 +162,17 @@ CREATE SEQUENCE public.failed_jobs_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.failed_jobs_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.failed_jobs_id_seq OWNER TO rocketscience;
 
 --
--- Name: failed_jobs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.failed_jobs_id_seq OWNED BY public.failed_jobs.id;
 
 
 --
--- Name: jobs; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: jobs; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.jobs (
@@ -186,10 +186,10 @@ CREATE TABLE public.jobs (
 );
 
 
-ALTER TABLE public.jobs OWNER TO gorodrabot;
+ALTER TABLE public.jobs OWNER TO rocketscience;
 
 --
--- Name: jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: jobs_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.jobs_id_seq
@@ -200,17 +200,17 @@ CREATE SEQUENCE public.jobs_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.jobs_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.jobs_id_seq OWNER TO rocketscience;
 
 --
--- Name: jobs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: jobs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.jobs_id_seq OWNED BY public.jobs.id;
 
 
 --
--- Name: media; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: media; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.media (
@@ -235,10 +235,10 @@ CREATE TABLE public.media (
 );
 
 
-ALTER TABLE public.media OWNER TO gorodrabot;
+ALTER TABLE public.media OWNER TO rocketscience;
 
 --
--- Name: media_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: media_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.media_id_seq
@@ -249,17 +249,17 @@ CREATE SEQUENCE public.media_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.media_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.media_id_seq OWNER TO rocketscience;
 
 --
--- Name: media_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: media_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.media_id_seq OWNED BY public.media.id;
 
 
 --
--- Name: migrations; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: migrations; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.migrations (
@@ -269,10 +269,10 @@ CREATE TABLE public.migrations (
 );
 
 
-ALTER TABLE public.migrations OWNER TO gorodrabot;
+ALTER TABLE public.migrations OWNER TO rocketscience;
 
 --
--- Name: migrations_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: migrations_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.migrations_id_seq
@@ -284,17 +284,17 @@ CREATE SEQUENCE public.migrations_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.migrations_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.migrations_id_seq OWNER TO rocketscience;
 
 --
--- Name: migrations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: migrations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.migrations_id_seq OWNED BY public.migrations.id;
 
 
 --
--- Name: mile; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: mile; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.mile (
@@ -310,10 +310,10 @@ CREATE TABLE public.mile (
 );
 
 
-ALTER TABLE public.mile OWNER TO gorodrabot;
+ALTER TABLE public.mile OWNER TO rocketscience;
 
 --
--- Name: mile_card; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: mile_card; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.mile_card (
@@ -326,10 +326,10 @@ CREATE TABLE public.mile_card (
 );
 
 
-ALTER TABLE public.mile_card OWNER TO gorodrabot;
+ALTER TABLE public.mile_card OWNER TO rocketscience;
 
 --
--- Name: mile_card_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: mile_card_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.mile_card_id_seq
@@ -340,17 +340,17 @@ CREATE SEQUENCE public.mile_card_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.mile_card_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.mile_card_id_seq OWNER TO rocketscience;
 
 --
--- Name: mile_card_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: mile_card_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.mile_card_id_seq OWNED BY public.mile_card.id;
 
 
 --
--- Name: mile_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: mile_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.mile_id_seq
@@ -361,17 +361,17 @@ CREATE SEQUENCE public.mile_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.mile_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.mile_id_seq OWNER TO rocketscience;
 
 --
--- Name: mile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: mile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.mile_id_seq OWNED BY public.mile.id;
 
 
 --
--- Name: mile_income; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: mile_income; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.mile_income (
@@ -385,10 +385,10 @@ CREATE TABLE public.mile_income (
 );
 
 
-ALTER TABLE public.mile_income OWNER TO gorodrabot;
+ALTER TABLE public.mile_income OWNER TO rocketscience;
 
 --
--- Name: mile_income_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: mile_income_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.mile_income_id_seq
@@ -399,17 +399,17 @@ CREATE SEQUENCE public.mile_income_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.mile_income_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.mile_income_id_seq OWNER TO rocketscience;
 
 --
--- Name: mile_income_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: mile_income_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.mile_income_id_seq OWNED BY public.mile_income.id;
 
 
 --
--- Name: mile_payment; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: mile_payment; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.mile_payment (
@@ -423,10 +423,10 @@ CREATE TABLE public.mile_payment (
 );
 
 
-ALTER TABLE public.mile_payment OWNER TO gorodrabot;
+ALTER TABLE public.mile_payment OWNER TO rocketscience;
 
 --
--- Name: mile_payment_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: mile_payment_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.mile_payment_id_seq
@@ -437,17 +437,17 @@ CREATE SEQUENCE public.mile_payment_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.mile_payment_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.mile_payment_id_seq OWNER TO rocketscience;
 
 --
--- Name: mile_payment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: mile_payment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.mile_payment_id_seq OWNED BY public.mile_payment.id;
 
 
 --
--- Name: model_has_permission; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: model_has_permission; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.model_has_permission (
@@ -457,10 +457,10 @@ CREATE TABLE public.model_has_permission (
 );
 
 
-ALTER TABLE public.model_has_permission OWNER TO gorodrabot;
+ALTER TABLE public.model_has_permission OWNER TO rocketscience;
 
 --
--- Name: model_has_role; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: model_has_role; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.model_has_role (
@@ -470,10 +470,10 @@ CREATE TABLE public.model_has_role (
 );
 
 
-ALTER TABLE public.model_has_role OWNER TO gorodrabot;
+ALTER TABLE public.model_has_role OWNER TO rocketscience;
 
 --
--- Name: notifications; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: notifications; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.notifications (
@@ -489,10 +489,10 @@ CREATE TABLE public.notifications (
 );
 
 
-ALTER TABLE public.notifications OWNER TO gorodrabot;
+ALTER TABLE public.notifications OWNER TO rocketscience;
 
 --
--- Name: order; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: order; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public."order" (
@@ -513,10 +513,10 @@ CREATE TABLE public."order" (
 );
 
 
-ALTER TABLE public."order" OWNER TO gorodrabot;
+ALTER TABLE public."order" OWNER TO rocketscience;
 
 --
--- Name: order_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: order_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.order_id_seq
@@ -527,17 +527,17 @@ CREATE SEQUENCE public.order_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.order_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.order_id_seq OWNER TO rocketscience;
 
 --
--- Name: order_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: order_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.order_id_seq OWNED BY public."order".id;
 
 
 --
--- Name: password_resets; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: password_resets; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.password_resets (
@@ -547,10 +547,10 @@ CREATE TABLE public.password_resets (
 );
 
 
-ALTER TABLE public.password_resets OWNER TO gorodrabot;
+ALTER TABLE public.password_resets OWNER TO rocketscience;
 
 --
--- Name: permission; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: permission; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.permission (
@@ -562,10 +562,10 @@ CREATE TABLE public.permission (
 );
 
 
-ALTER TABLE public.permission OWNER TO gorodrabot;
+ALTER TABLE public.permission OWNER TO rocketscience;
 
 --
--- Name: permission_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: permission_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.permission_id_seq
@@ -576,17 +576,17 @@ CREATE SEQUENCE public.permission_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.permission_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.permission_id_seq OWNER TO rocketscience;
 
 --
--- Name: permission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: permission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.permission_id_seq OWNED BY public.permission.id;
 
 
 --
--- Name: personal_access_tokens; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.personal_access_tokens (
@@ -603,10 +603,10 @@ CREATE TABLE public.personal_access_tokens (
 );
 
 
-ALTER TABLE public.personal_access_tokens OWNER TO gorodrabot;
+ALTER TABLE public.personal_access_tokens OWNER TO rocketscience;
 
 --
--- Name: personal_access_tokens_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.personal_access_tokens_id_seq
@@ -617,17 +617,17 @@ CREATE SEQUENCE public.personal_access_tokens_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.personal_access_tokens_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.personal_access_tokens_id_seq OWNER TO rocketscience;
 
 --
--- Name: personal_access_tokens_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.personal_access_tokens_id_seq OWNED BY public.personal_access_tokens.id;
 
 
 --
--- Name: profile; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: profile; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.profile (
@@ -643,10 +643,10 @@ CREATE TABLE public.profile (
 );
 
 
-ALTER TABLE public.profile OWNER TO gorodrabot;
+ALTER TABLE public.profile OWNER TO rocketscience;
 
 --
--- Name: profile_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: profile_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.profile_id_seq
@@ -657,17 +657,17 @@ CREATE SEQUENCE public.profile_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.profile_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.profile_id_seq OWNER TO rocketscience;
 
 --
--- Name: profile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: profile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.profile_id_seq OWNED BY public.profile.id;
 
 
 --
--- Name: retro; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: retro; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.retro (
@@ -683,10 +683,10 @@ CREATE TABLE public.retro (
 );
 
 
-ALTER TABLE public.retro OWNER TO gorodrabot;
+ALTER TABLE public.retro OWNER TO rocketscience;
 
 --
--- Name: retro_card; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: retro_card; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.retro_card (
@@ -699,10 +699,10 @@ CREATE TABLE public.retro_card (
 );
 
 
-ALTER TABLE public.retro_card OWNER TO gorodrabot;
+ALTER TABLE public.retro_card OWNER TO rocketscience;
 
 --
--- Name: retro_card_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: retro_card_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.retro_card_id_seq
@@ -713,17 +713,17 @@ CREATE SEQUENCE public.retro_card_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.retro_card_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.retro_card_id_seq OWNER TO rocketscience;
 
 --
--- Name: retro_card_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: retro_card_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.retro_card_id_seq OWNED BY public.retro_card.id;
 
 
 --
--- Name: retro_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: retro_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.retro_id_seq
@@ -734,17 +734,17 @@ CREATE SEQUENCE public.retro_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.retro_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.retro_id_seq OWNER TO rocketscience;
 
 --
--- Name: retro_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: retro_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.retro_id_seq OWNED BY public.retro.id;
 
 
 --
--- Name: retro_income; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: retro_income; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.retro_income (
@@ -758,10 +758,10 @@ CREATE TABLE public.retro_income (
 );
 
 
-ALTER TABLE public.retro_income OWNER TO gorodrabot;
+ALTER TABLE public.retro_income OWNER TO rocketscience;
 
 --
--- Name: retro_income_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: retro_income_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.retro_income_id_seq
@@ -772,17 +772,17 @@ CREATE SEQUENCE public.retro_income_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.retro_income_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.retro_income_id_seq OWNER TO rocketscience;
 
 --
--- Name: retro_income_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: retro_income_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.retro_income_id_seq OWNED BY public.retro_income.id;
 
 
 --
--- Name: retro_payment; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: retro_payment; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.retro_payment (
@@ -796,10 +796,10 @@ CREATE TABLE public.retro_payment (
 );
 
 
-ALTER TABLE public.retro_payment OWNER TO gorodrabot;
+ALTER TABLE public.retro_payment OWNER TO rocketscience;
 
 --
--- Name: retro_payment_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: retro_payment_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.retro_payment_id_seq
@@ -810,17 +810,17 @@ CREATE SEQUENCE public.retro_payment_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.retro_payment_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.retro_payment_id_seq OWNER TO rocketscience;
 
 --
--- Name: retro_payment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: retro_payment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.retro_payment_id_seq OWNED BY public.retro_payment.id;
 
 
 --
--- Name: role; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: role; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.role (
@@ -832,10 +832,10 @@ CREATE TABLE public.role (
 );
 
 
-ALTER TABLE public.role OWNER TO gorodrabot;
+ALTER TABLE public.role OWNER TO rocketscience;
 
 --
--- Name: role_has_permission; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: role_has_permission; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.role_has_permission (
@@ -844,10 +844,10 @@ CREATE TABLE public.role_has_permission (
 );
 
 
-ALTER TABLE public.role_has_permission OWNER TO gorodrabot;
+ALTER TABLE public.role_has_permission OWNER TO rocketscience;
 
 --
--- Name: role_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: role_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.role_id_seq
@@ -858,17 +858,17 @@ CREATE SEQUENCE public.role_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.role_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.role_id_seq OWNER TO rocketscience;
 
 --
--- Name: role_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: role_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.role_id_seq OWNED BY public.role.id;
 
 
 --
--- Name: telegram_setting; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.telegram_setting (
@@ -879,10 +879,10 @@ CREATE TABLE public.telegram_setting (
 );
 
 
-ALTER TABLE public.telegram_setting OWNER TO gorodrabot;
+ALTER TABLE public.telegram_setting OWNER TO rocketscience;
 
 --
--- Name: telegram_setting_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.telegram_setting_id_seq
@@ -893,17 +893,17 @@ CREATE SEQUENCE public.telegram_setting_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.telegram_setting_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.telegram_setting_id_seq OWNER TO rocketscience;
 
 --
--- Name: telegram_setting_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.telegram_setting_id_seq OWNED BY public.telegram_setting.id;
 
 
 --
--- Name: temp_file; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: temp_file; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.temp_file (
@@ -913,10 +913,10 @@ CREATE TABLE public.temp_file (
 );
 
 
-ALTER TABLE public.temp_file OWNER TO gorodrabot;
+ALTER TABLE public.temp_file OWNER TO rocketscience;
 
 --
--- Name: temp_file_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: temp_file_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.temp_file_id_seq
@@ -927,17 +927,17 @@ CREATE SEQUENCE public.temp_file_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.temp_file_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.temp_file_id_seq OWNER TO rocketscience;
 
 --
--- Name: temp_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: temp_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.temp_file_id_seq OWNED BY public.temp_file.id;
 
 
 --
--- Name: users; Type: TABLE; Schema: public; Owner: gorodrabot
+-- Name: users; Type: TABLE; Schema: public; Owner: rocketscience
 --
 
 CREATE TABLE public.users (
@@ -958,10 +958,10 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO gorodrabot;
+ALTER TABLE public.users OWNER TO rocketscience;
 
 --
--- Name: users_id_seq; Type: SEQUENCE; Schema: public; Owner: gorodrabot
+-- Name: users_id_seq; Type: SEQUENCE; Schema: public; Owner: rocketscience
 --
 
 CREATE SEQUENCE public.users_id_seq
@@ -972,178 +972,178 @@ CREATE SEQUENCE public.users_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.users_id_seq OWNER TO gorodrabot;
+ALTER SEQUENCE public.users_id_seq OWNER TO rocketscience;
 
 --
--- Name: users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: gorodrabot
+-- Name: users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: rocketscience
 --
 
 ALTER SEQUENCE public.users_id_seq OWNED BY public.users.id;
 
 
 --
--- Name: company id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: company id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.company ALTER COLUMN id SET DEFAULT nextval('public.company_id_seq'::regclass);
 
 
 --
--- Name: event id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: event id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event ALTER COLUMN id SET DEFAULT nextval('public.event_id_seq'::regclass);
 
 
 --
--- Name: event_user id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: event_user id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event_user ALTER COLUMN id SET DEFAULT nextval('public.event_user_id_seq'::regclass);
 
 
 --
--- Name: failed_jobs id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.failed_jobs ALTER COLUMN id SET DEFAULT nextval('public.failed_jobs_id_seq'::regclass);
 
 
 --
--- Name: jobs id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: jobs id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.jobs ALTER COLUMN id SET DEFAULT nextval('public.jobs_id_seq'::regclass);
 
 
 --
--- Name: media id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: media id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.media ALTER COLUMN id SET DEFAULT nextval('public.media_id_seq'::regclass);
 
 
 --
--- Name: migrations id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: migrations id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.migrations ALTER COLUMN id SET DEFAULT nextval('public.migrations_id_seq'::regclass);
 
 
 --
--- Name: mile id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: mile id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile ALTER COLUMN id SET DEFAULT nextval('public.mile_id_seq'::regclass);
 
 
 --
--- Name: mile_card id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: mile_card id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_card ALTER COLUMN id SET DEFAULT nextval('public.mile_card_id_seq'::regclass);
 
 
 --
--- Name: mile_income id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: mile_income id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_income ALTER COLUMN id SET DEFAULT nextval('public.mile_income_id_seq'::regclass);
 
 
 --
--- Name: mile_payment id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: mile_payment id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_payment ALTER COLUMN id SET DEFAULT nextval('public.mile_payment_id_seq'::regclass);
 
 
 --
--- Name: order id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: order id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order" ALTER COLUMN id SET DEFAULT nextval('public.order_id_seq'::regclass);
 
 
 --
--- Name: permission id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: permission id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.permission ALTER COLUMN id SET DEFAULT nextval('public.permission_id_seq'::regclass);
 
 
 --
--- Name: personal_access_tokens id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.personal_access_tokens ALTER COLUMN id SET DEFAULT nextval('public.personal_access_tokens_id_seq'::regclass);
 
 
 --
--- Name: profile id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: profile id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.profile ALTER COLUMN id SET DEFAULT nextval('public.profile_id_seq'::regclass);
 
 
 --
--- Name: retro id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: retro id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro ALTER COLUMN id SET DEFAULT nextval('public.retro_id_seq'::regclass);
 
 
 --
--- Name: retro_card id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: retro_card id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_card ALTER COLUMN id SET DEFAULT nextval('public.retro_card_id_seq'::regclass);
 
 
 --
--- Name: retro_income id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: retro_income id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_income ALTER COLUMN id SET DEFAULT nextval('public.retro_income_id_seq'::regclass);
 
 
 --
--- Name: retro_payment id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: retro_payment id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_payment ALTER COLUMN id SET DEFAULT nextval('public.retro_payment_id_seq'::regclass);
 
 
 --
--- Name: role id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: role id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role ALTER COLUMN id SET DEFAULT nextval('public.role_id_seq'::regclass);
 
 
 --
--- Name: telegram_setting id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.telegram_setting ALTER COLUMN id SET DEFAULT nextval('public.telegram_setting_id_seq'::regclass);
 
 
 --
--- Name: temp_file id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: temp_file id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.temp_file ALTER COLUMN id SET DEFAULT nextval('public.temp_file_id_seq'::regclass);
 
 
 --
--- Name: users id; Type: DEFAULT; Schema: public; Owner: gorodrabot
+-- Name: users id; Type: DEFAULT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_id_seq'::regclass);
 
 
 --
--- Data for Name: company; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: company; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.company (id, inn, name, deleted_at, created_at, updated_at) FROM stdin;
@@ -1152,7 +1152,7 @@ COPY public.company (id, inn, name, deleted_at, created_at, updated_at) FROM std
 
 
 --
--- Data for Name: event; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: event; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.event (id, name, description, date, time_from, time_to, register_until_date, created_at, updated_at) FROM stdin;
@@ -1161,7 +1161,7 @@ COPY public.event (id, name, description, date, time_from, time_to, register_unt
 
 
 --
--- Data for Name: event_user; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: event_user; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.event_user (id, event_id, user_id, created_at, updated_at) FROM stdin;
@@ -1169,7 +1169,7 @@ COPY public.event_user (id, event_id, user_id, created_at, updated_at) FROM stdi
 
 
 --
--- Data for Name: failed_jobs; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: failed_jobs; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.failed_jobs (id, uuid, connection, queue, payload, exception, failed_at) FROM stdin;
@@ -1177,7 +1177,7 @@ COPY public.failed_jobs (id, uuid, connection, queue, payload, exception, failed
 
 
 --
--- Data for Name: jobs; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: jobs; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.jobs (id, queue, payload, attempts, reserved_at, available_at, created_at) FROM stdin;
@@ -1185,7 +1185,7 @@ COPY public.jobs (id, queue, payload, attempts, reserved_at, available_at, creat
 
 
 --
--- Data for Name: media; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: media; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.media (id, model_type, model_id, uuid, collection_name, name, file_name, mime_type, disk, conversions_disk, size, manipulations, custom_properties, generated_conversions, responsive_images, order_column, created_at, updated_at) FROM stdin;
@@ -1195,7 +1195,7 @@ COPY public.media (id, model_type, model_id, uuid, collection_name, name, file_n
 
 
 --
--- Data for Name: migrations; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: migrations; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.migrations (id, migration, batch) FROM stdin;
@@ -1236,7 +1236,7 @@ COPY public.migrations (id, migration, batch) FROM stdin;
 
 
 --
--- Data for Name: mile; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: mile; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.mile (id, user_id, income, paid, income_percent, total, active_from, created_at, updated_at) FROM stdin;
@@ -1247,7 +1247,7 @@ COPY public.mile (id, user_id, income, paid, income_percent, total, active_from,
 
 
 --
--- Data for Name: mile_card; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: mile_card; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.mile_card (id, user_id, card_number, active, created_at, updated_at) FROM stdin;
@@ -1256,7 +1256,7 @@ COPY public.mile_card (id, user_id, card_number, active, created_at, updated_at)
 
 
 --
--- Data for Name: mile_income; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: mile_income; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.mile_income (id, mile_id, value, created_at, updated_at, order_id, result_value) FROM stdin;
@@ -1276,7 +1276,7 @@ COPY public.mile_income (id, mile_id, value, created_at, updated_at, order_id, r
 
 
 --
--- Data for Name: mile_payment; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: mile_payment; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.mile_payment (id, mile_id, mile_card_id, value, created_at, updated_at, result_value) FROM stdin;
@@ -1285,7 +1285,7 @@ COPY public.mile_payment (id, mile_id, mile_card_id, value, created_at, updated_
 
 
 --
--- Data for Name: model_has_permission; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: model_has_permission; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.model_has_permission (permission_id, model_type, model_id) FROM stdin;
@@ -1293,7 +1293,7 @@ COPY public.model_has_permission (permission_id, model_type, model_id) FROM stdi
 
 
 --
--- Data for Name: model_has_role; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: model_has_role; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.model_has_role (role_id, model_type, model_id) FROM stdin;
@@ -1305,7 +1305,7 @@ COPY public.model_has_role (role_id, model_type, model_id) FROM stdin;
 
 
 --
--- Data for Name: notifications; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: notifications; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.notifications (id, type, notifiable_type, notifiable_id, data, read_at, date_sent, created_at, updated_at) FROM stdin;
@@ -1313,7 +1313,7 @@ COPY public.notifications (id, type, notifiable_type, notifiable_id, data, read_
 
 
 --
--- Data for Name: order; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: order; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public."order" (id, number, date, total, payment_status, production_stage, user_id, company_id, deleted_at, created_at, updated_at, order_id, mile_id, retro_id) FROM stdin;
@@ -1338,7 +1338,7 @@ COPY public."order" (id, number, date, total, payment_status, production_stage, 
 
 
 --
--- Data for Name: password_resets; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: password_resets; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.password_resets (email, token, created_at) FROM stdin;
@@ -1346,7 +1346,7 @@ COPY public.password_resets (email, token, created_at) FROM stdin;
 
 
 --
--- Data for Name: permission; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: permission; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.permission (id, name, guard_name, created_at, updated_at) FROM stdin;
@@ -1354,7 +1354,7 @@ COPY public.permission (id, name, guard_name, created_at, updated_at) FROM stdin
 
 
 --
--- Data for Name: personal_access_tokens; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: personal_access_tokens; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.personal_access_tokens (id, tokenable_type, tokenable_id, name, token, abilities, last_used_at, expires_at, created_at, updated_at) FROM stdin;
@@ -1382,7 +1382,7 @@ COPY public.personal_access_tokens (id, tokenable_type, tokenable_id, name, toke
 
 
 --
--- Data for Name: profile; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: profile; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.profile (id, phone, user_id, created_at, updated_at, account_type, telegram_notify, email_notify, chat_id) FROM stdin;
@@ -1394,7 +1394,7 @@ COPY public.profile (id, phone, user_id, created_at, updated_at, account_type, t
 
 
 --
--- Data for Name: retro; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: retro; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.retro (id, user_id, income, paid, income_percent, total, active_from, created_at, updated_at) FROM stdin;
@@ -1405,7 +1405,7 @@ COPY public.retro (id, user_id, income, paid, income_percent, total, active_from
 
 
 --
--- Data for Name: retro_card; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: retro_card; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.retro_card (id, user_id, card_number, active, created_at, updated_at) FROM stdin;
@@ -1413,7 +1413,7 @@ COPY public.retro_card (id, user_id, card_number, active, created_at, updated_at
 
 
 --
--- Data for Name: retro_income; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: retro_income; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.retro_income (id, retro_id, order_id, value, created_at, updated_at, result_value) FROM stdin;
@@ -1433,7 +1433,7 @@ COPY public.retro_income (id, retro_id, order_id, value, created_at, updated_at,
 
 
 --
--- Data for Name: retro_payment; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: retro_payment; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.retro_payment (id, retro_id, retro_card_id, value, created_at, updated_at, result_value) FROM stdin;
@@ -1441,7 +1441,7 @@ COPY public.retro_payment (id, retro_id, retro_card_id, value, created_at, updat
 
 
 --
--- Data for Name: role; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: role; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.role (id, name, guard_name, created_at, updated_at) FROM stdin;
@@ -1453,7 +1453,7 @@ COPY public.role (id, name, guard_name, created_at, updated_at) FROM stdin;
 
 
 --
--- Data for Name: role_has_permission; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: role_has_permission; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.role_has_permission (permission_id, role_id) FROM stdin;
@@ -1461,7 +1461,7 @@ COPY public.role_has_permission (permission_id, role_id) FROM stdin;
 
 
 --
--- Data for Name: telegram_setting; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: telegram_setting; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.telegram_setting (id, notification_offset, created_at, updated_at) FROM stdin;
@@ -1469,7 +1469,7 @@ COPY public.telegram_setting (id, notification_offset, created_at, updated_at) F
 
 
 --
--- Data for Name: temp_file; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: temp_file; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.temp_file (id, created_at, updated_at) FROM stdin;
@@ -1478,7 +1478,7 @@ COPY public.temp_file (id, created_at, updated_at) FROM stdin;
 
 
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: gorodrabot
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: rocketscience
 --
 
 COPY public.users (id, name, email, email_verified_at, password, remember_token, created_at, updated_at, company_id, first_name, "position", phone, last_name, patronymic) FROM stdin;
@@ -1490,168 +1490,168 @@ COPY public.users (id, name, email, email_verified_at, password, remember_token,
 
 
 --
--- Name: company_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: company_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.company_id_seq', 2, true);
 
 
 --
--- Name: event_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: event_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.event_id_seq', 24, true);
 
 
 --
--- Name: event_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: event_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.event_user_id_seq', 1, false);
 
 
 --
--- Name: failed_jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.failed_jobs_id_seq', 1, false);
 
 
 --
--- Name: jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.jobs_id_seq', 1, false);
 
 
 --
--- Name: media_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: media_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.media_id_seq', 33, true);
 
 
 --
--- Name: migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.migrations_id_seq', 33, true);
 
 
 --
--- Name: mile_card_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: mile_card_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.mile_card_id_seq', 1, false);
 
 
 --
--- Name: mile_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: mile_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.mile_id_seq', 4, true);
 
 
 --
--- Name: mile_income_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: mile_income_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.mile_income_id_seq', 13, true);
 
 
 --
--- Name: mile_payment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: mile_payment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.mile_payment_id_seq', 1, false);
 
 
 --
--- Name: order_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: order_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.order_id_seq', 17, true);
 
 
 --
--- Name: permission_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: permission_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.permission_id_seq', 1, false);
 
 
 --
--- Name: personal_access_tokens_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.personal_access_tokens_id_seq', 20, true);
 
 
 --
--- Name: profile_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: profile_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.profile_id_seq', 6, true);
 
 
 --
--- Name: retro_card_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: retro_card_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.retro_card_id_seq', 1, false);
 
 
 --
--- Name: retro_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: retro_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.retro_id_seq', 2, true);
 
 
 --
--- Name: retro_income_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: retro_income_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.retro_income_id_seq', 12, true);
 
 
 --
--- Name: retro_payment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: retro_payment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.retro_payment_id_seq', 1, false);
 
 
 --
--- Name: role_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: role_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.role_id_seq', 4, true);
 
 
 --
--- Name: telegram_setting_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.telegram_setting_id_seq', 1, false);
 
 
 --
--- Name: temp_file_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: temp_file_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.temp_file_id_seq', 1, true);
 
 
 --
--- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: gorodrabot
+-- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: rocketscience
 --
 
 SELECT pg_catalog.setval('public.users_id_seq', 6, true);
 
 
 --
--- Name: company company_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: company company_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.company
@@ -1659,7 +1659,7 @@ ALTER TABLE ONLY public.company
 
 
 --
--- Name: event event_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: event event_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event
@@ -1667,7 +1667,7 @@ ALTER TABLE ONLY public.event
 
 
 --
--- Name: event_user event_user_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: event_user event_user_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event_user
@@ -1675,7 +1675,7 @@ ALTER TABLE ONLY public.event_user
 
 
 --
--- Name: failed_jobs failed_jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs failed_jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.failed_jobs
@@ -1683,7 +1683,7 @@ ALTER TABLE ONLY public.failed_jobs
 
 
 --
--- Name: failed_jobs failed_jobs_uuid_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: failed_jobs failed_jobs_uuid_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.failed_jobs
@@ -1691,7 +1691,7 @@ ALTER TABLE ONLY public.failed_jobs
 
 
 --
--- Name: jobs jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: jobs jobs_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.jobs
@@ -1699,7 +1699,7 @@ ALTER TABLE ONLY public.jobs
 
 
 --
--- Name: media media_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: media media_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.media
@@ -1707,7 +1707,7 @@ ALTER TABLE ONLY public.media
 
 
 --
--- Name: media media_uuid_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: media media_uuid_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.media
@@ -1715,7 +1715,7 @@ ALTER TABLE ONLY public.media
 
 
 --
--- Name: migrations migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: migrations migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.migrations
@@ -1723,7 +1723,7 @@ ALTER TABLE ONLY public.migrations
 
 
 --
--- Name: mile_card mile_card_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_card mile_card_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_card
@@ -1731,7 +1731,7 @@ ALTER TABLE ONLY public.mile_card
 
 
 --
--- Name: mile_income mile_income_order_id_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_income mile_income_order_id_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_income
@@ -1739,7 +1739,7 @@ ALTER TABLE ONLY public.mile_income
 
 
 --
--- Name: mile_income mile_income_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_income mile_income_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_income
@@ -1747,7 +1747,7 @@ ALTER TABLE ONLY public.mile_income
 
 
 --
--- Name: mile_payment mile_payment_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_payment mile_payment_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_payment
@@ -1755,7 +1755,7 @@ ALTER TABLE ONLY public.mile_payment
 
 
 --
--- Name: mile mile_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile mile_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile
@@ -1763,7 +1763,7 @@ ALTER TABLE ONLY public.mile
 
 
 --
--- Name: model_has_permission model_has_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: model_has_permission model_has_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.model_has_permission
@@ -1771,7 +1771,7 @@ ALTER TABLE ONLY public.model_has_permission
 
 
 --
--- Name: model_has_role model_has_role_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: model_has_role model_has_role_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.model_has_role
@@ -1779,7 +1779,7 @@ ALTER TABLE ONLY public.model_has_role
 
 
 --
--- Name: notifications notifications_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: notifications notifications_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.notifications
@@ -1787,7 +1787,7 @@ ALTER TABLE ONLY public.notifications
 
 
 --
--- Name: order order_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -1795,7 +1795,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: permission permission_name_guard_name_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: permission permission_name_guard_name_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.permission
@@ -1803,7 +1803,7 @@ ALTER TABLE ONLY public.permission
 
 
 --
--- Name: permission permission_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: permission permission_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.permission
@@ -1811,7 +1811,7 @@ ALTER TABLE ONLY public.permission
 
 
 --
--- Name: personal_access_tokens personal_access_tokens_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens personal_access_tokens_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.personal_access_tokens
@@ -1819,7 +1819,7 @@ ALTER TABLE ONLY public.personal_access_tokens
 
 
 --
--- Name: personal_access_tokens personal_access_tokens_token_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens personal_access_tokens_token_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.personal_access_tokens
@@ -1827,7 +1827,7 @@ ALTER TABLE ONLY public.personal_access_tokens
 
 
 --
--- Name: profile profile_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: profile profile_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.profile
@@ -1835,7 +1835,7 @@ ALTER TABLE ONLY public.profile
 
 
 --
--- Name: retro_card retro_card_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_card retro_card_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_card
@@ -1843,7 +1843,7 @@ ALTER TABLE ONLY public.retro_card
 
 
 --
--- Name: retro_income retro_income_order_id_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_income retro_income_order_id_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_income
@@ -1851,7 +1851,7 @@ ALTER TABLE ONLY public.retro_income
 
 
 --
--- Name: retro_income retro_income_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_income retro_income_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_income
@@ -1859,7 +1859,7 @@ ALTER TABLE ONLY public.retro_income
 
 
 --
--- Name: retro_payment retro_payment_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_payment retro_payment_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_payment
@@ -1867,7 +1867,7 @@ ALTER TABLE ONLY public.retro_payment
 
 
 --
--- Name: retro retro_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro retro_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro
@@ -1875,7 +1875,7 @@ ALTER TABLE ONLY public.retro
 
 
 --
--- Name: role_has_permission role_has_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: role_has_permission role_has_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role_has_permission
@@ -1883,7 +1883,7 @@ ALTER TABLE ONLY public.role_has_permission
 
 
 --
--- Name: role role_name_guard_name_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: role role_name_guard_name_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role
@@ -1891,7 +1891,7 @@ ALTER TABLE ONLY public.role
 
 
 --
--- Name: role role_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: role role_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role
@@ -1899,7 +1899,7 @@ ALTER TABLE ONLY public.role
 
 
 --
--- Name: telegram_setting telegram_setting_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: telegram_setting telegram_setting_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.telegram_setting
@@ -1907,7 +1907,7 @@ ALTER TABLE ONLY public.telegram_setting
 
 
 --
--- Name: temp_file temp_file_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: temp_file temp_file_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.temp_file
@@ -1915,7 +1915,7 @@ ALTER TABLE ONLY public.temp_file
 
 
 --
--- Name: users users_email_unique; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: users users_email_unique; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.users
@@ -1923,7 +1923,7 @@ ALTER TABLE ONLY public.users
 
 
 --
--- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.users
@@ -1931,63 +1931,63 @@ ALTER TABLE ONLY public.users
 
 
 --
--- Name: jobs_queue_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: jobs_queue_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX jobs_queue_index ON public.jobs USING btree (queue);
 
 
 --
--- Name: media_model_type_model_id_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: media_model_type_model_id_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX media_model_type_model_id_index ON public.media USING btree (model_type, model_id);
 
 
 --
--- Name: media_order_column_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: media_order_column_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX media_order_column_index ON public.media USING btree (order_column);
 
 
 --
--- Name: model_has_permissions_model_id_model_type_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: model_has_permissions_model_id_model_type_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX model_has_permissions_model_id_model_type_index ON public.model_has_permission USING btree (model_id, model_type);
 
 
 --
--- Name: model_has_roles_model_id_model_type_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: model_has_roles_model_id_model_type_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX model_has_roles_model_id_model_type_index ON public.model_has_role USING btree (model_id, model_type);
 
 
 --
--- Name: notifications_notifiable_type_notifiable_id_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: notifications_notifiable_type_notifiable_id_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX notifications_notifiable_type_notifiable_id_index ON public.notifications USING btree (notifiable_type, notifiable_id);
 
 
 --
--- Name: password_resets_email_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: password_resets_email_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX password_resets_email_index ON public.password_resets USING btree (email);
 
 
 --
--- Name: personal_access_tokens_tokenable_type_tokenable_id_index; Type: INDEX; Schema: public; Owner: gorodrabot
+-- Name: personal_access_tokens_tokenable_type_tokenable_id_index; Type: INDEX; Schema: public; Owner: rocketscience
 --
 
 CREATE INDEX personal_access_tokens_tokenable_type_tokenable_id_index ON public.personal_access_tokens USING btree (tokenable_type, tokenable_id);
 
 
 --
--- Name: event_user event_user_event_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: event_user event_user_event_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event_user
@@ -1995,7 +1995,7 @@ ALTER TABLE ONLY public.event_user
 
 
 --
--- Name: event_user event_user_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: event_user event_user_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.event_user
@@ -2003,7 +2003,7 @@ ALTER TABLE ONLY public.event_user
 
 
 --
--- Name: mile_card mile_card_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_card mile_card_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_card
@@ -2011,7 +2011,7 @@ ALTER TABLE ONLY public.mile_card
 
 
 --
--- Name: mile_income mile_income_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_income mile_income_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_income
@@ -2019,7 +2019,7 @@ ALTER TABLE ONLY public.mile_income
 
 
 --
--- Name: mile_income mile_income_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_income mile_income_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_income
@@ -2027,7 +2027,7 @@ ALTER TABLE ONLY public.mile_income
 
 
 --
--- Name: mile_payment mile_payment_mile_card_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_payment mile_payment_mile_card_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_payment
@@ -2035,7 +2035,7 @@ ALTER TABLE ONLY public.mile_payment
 
 
 --
--- Name: mile_payment mile_payment_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile_payment mile_payment_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile_payment
@@ -2043,7 +2043,7 @@ ALTER TABLE ONLY public.mile_payment
 
 
 --
--- Name: mile mile_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: mile mile_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.mile
@@ -2051,7 +2051,7 @@ ALTER TABLE ONLY public.mile
 
 
 --
--- Name: model_has_permission model_has_permission_permission_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: model_has_permission model_has_permission_permission_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.model_has_permission
@@ -2059,7 +2059,7 @@ ALTER TABLE ONLY public.model_has_permission
 
 
 --
--- Name: model_has_role model_has_role_role_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: model_has_role model_has_role_role_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.model_has_role
@@ -2067,7 +2067,7 @@ ALTER TABLE ONLY public.model_has_role
 
 
 --
--- Name: order order_company_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_company_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -2075,7 +2075,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: order order_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_mile_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -2083,7 +2083,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: order order_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -2091,7 +2091,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: order order_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -2099,7 +2099,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: order order_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: order order_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public."order"
@@ -2107,7 +2107,7 @@ ALTER TABLE ONLY public."order"
 
 
 --
--- Name: profile profile_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: profile profile_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.profile
@@ -2115,7 +2115,7 @@ ALTER TABLE ONLY public.profile
 
 
 --
--- Name: retro_card retro_card_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_card retro_card_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_card
@@ -2123,7 +2123,7 @@ ALTER TABLE ONLY public.retro_card
 
 
 --
--- Name: retro_income retro_income_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_income retro_income_order_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_income
@@ -2131,7 +2131,7 @@ ALTER TABLE ONLY public.retro_income
 
 
 --
--- Name: retro_income retro_income_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_income retro_income_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_income
@@ -2139,7 +2139,7 @@ ALTER TABLE ONLY public.retro_income
 
 
 --
--- Name: retro_payment retro_payment_retro_card_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_payment retro_payment_retro_card_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_payment
@@ -2147,7 +2147,7 @@ ALTER TABLE ONLY public.retro_payment
 
 
 --
--- Name: retro_payment retro_payment_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro_payment retro_payment_retro_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro_payment
@@ -2155,7 +2155,7 @@ ALTER TABLE ONLY public.retro_payment
 
 
 --
--- Name: retro retro_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: retro retro_user_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.retro
@@ -2163,7 +2163,7 @@ ALTER TABLE ONLY public.retro
 
 
 --
--- Name: role_has_permission role_has_permission_permission_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: role_has_permission role_has_permission_permission_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role_has_permission
@@ -2171,7 +2171,7 @@ ALTER TABLE ONLY public.role_has_permission
 
 
 --
--- Name: role_has_permission role_has_permission_role_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: role_has_permission role_has_permission_role_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.role_has_permission
@@ -2179,7 +2179,7 @@ ALTER TABLE ONLY public.role_has_permission
 
 
 --
--- Name: users users_company_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: gorodrabot
+-- Name: users users_company_id_foreign; Type: FK CONSTRAINT; Schema: public; Owner: rocketscience
 --
 
 ALTER TABLE ONLY public.users

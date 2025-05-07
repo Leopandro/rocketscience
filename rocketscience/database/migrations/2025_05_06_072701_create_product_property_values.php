@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('search', function (Blueprint $table) {
+        Schema::create('product_property_value', function (Blueprint $table) {
             $table->id();
-            $table->string('text', 128);
+            $table->foreignId('product_id')->constrained('product');
+            $table->foreignId('property_id')->constrained('property');
+            $table->string('value');
         });
     }
 
@@ -22,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::drop('search');
+        Schema::dropIfExists('product_property_values');
     }
 };

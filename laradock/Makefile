@@ -54,7 +54,7 @@ php-ide-helper-generate:
 	docker compose exec workspace composer ide-helpers
 
 workspace-connect:
-	docker exec --user=laradock -it gorodrabot_workspace_1 bash
+	docker exec --user=laradock -it rocketscience_workspace_1 bash
 
 # Полная очистка кэша и перезапуск воркеров horizon
 laravel-cache-clear:
@@ -91,14 +91,14 @@ test:
 seed:
 	docker compose exec workspace /bin/bash -c 'php artisan migrate:fresh && php artisan db:seed'
 
-# Файл дампа /root/.laradock/data/postgres/gorodrabot.dump
+# Файл дампа /root/.laradock/data/postgres/rocketscience.dump
 db-dump:
-	docker compose exec postgres /bin/bash -c 'pg_dump  --dbname=gorodrabot --host=postgres --port=5432 --user=gorodrabot --format=custom --file=/var/lib/postgresql/data/gorodrabot.dump'
+	docker compose exec postgres /bin/bash -c 'pg_dump  --dbname=rocketscience --host=postgres --port=5432 --user=rocketscience --format=custom --file=/var/lib/postgresql/data/rocketscience.dump'
 
 # Залить дамп БД
-# Файл кинуть в /root/.laradock/data/postgres/gorodrabot.dump (либо postgres12)
+# Файл кинуть в /root/.laradock/data/postgres/rocketscience.dump (либо postgres12)
 db-restore:
-	docker compose exec postgres /bin/bash -c 'pg_restore --clean --if-exists  --dbname=gorodrabot --host=postgres --port=5432 --user=gorodrabot /var/lib/postgresql/data/gorodrabot.dump'
+	docker compose exec postgres /bin/bash -c 'pg_restore --clean --if-exists  --dbname=rocketscience --host=postgres --port=5432 --user=rocketscience /var/lib/postgresql/data/rocketscience.dump'
 
 # Reset to Dev
 rd:

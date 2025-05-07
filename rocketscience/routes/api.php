@@ -1,6 +1,7 @@
 <?php
+declare(strict_types=1);
 
-use App\Http\Controllers\ShopController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::get('test', [ShopController::class, 'test']);
-Route::get('addresses', [ShopController::class, 'addresses']);
-Route::get('phpinfo', [ShopController::class, 'phpinfo']);
+Route::group(['prefix' => 'products'], function () {
+    Route::get('list', [ProductController::class, 'list']);
+});
